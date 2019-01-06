@@ -1,0 +1,118 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Dec  7 17:13:49 2018
+| Host         : DESKTOP-STRIX running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file game_top_level_control_sets_placed.rpt
+| Design       : game_top_level
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    49 |
+| Unused register locations in slices containing registers |    64 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            2 |
+|      8 |           21 |
+|     10 |            1 |
+|     14 |            1 |
+|    16+ |           23 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1654 |          320 |
+| No           | No                    | Yes                    |              34 |            5 |
+| No           | Yes                   | No                     |              54 |           13 |
+| Yes          | No                    | No                     |             178 |           58 |
+| Yes          | No                    | Yes                    |              24 |            5 |
+| Yes          | Yes                   | No                     |            1232 |          235 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------------------------+----------------------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                         Enable Signal                         |                        Set/Reset Signal                        | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------------------------------+----------------------------------------------------------------+------------------+----------------+
+|  i_pixel_clk   |                                                               | WINNER_DISPLAY/led4_OBUF                                       |                1 |              2 |
+|  clk_IBUF_BUFG | HIGHSCORE_STORER/up_press_i0                                  |                                                                |                2 |              4 |
+|  clk_IBUF_BUFG | COMPARER/button2_i_i_1_n_0                                    |                                                                |                2 |              4 |
+|  clk_IBUF_BUFG | SCORE_KEEPER/player2_dig2_i[3]_i_1_n_0                        | reset_IBUF                                                     |                2 |              8 |
+|  clk_IBUF_BUFG | COMPARER/CLOCK_DIV/kHzClock/E[0]                              | COMPARER/CLOCK_DIV/thousandthsClock/current_count[3]_i_1_n_0   |                1 |              8 |
+|  clk_IBUF_BUFG |                                                               | WINNER_DISPLAY/music/D_enable_i_1_n_0                          |                3 |              8 |
+|  clk_IBUF_BUFG | HIGHSCORE_STORER/UP_COUNT/ts_dig2_i_reg[0][0]                 | reset_highscore_IBUF                                           |                1 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count[3]_i_1__12_n_0         | new_game_IBUF                                                  |                1 |              8 |
+|  clk_IBUF_BUFG | SCORE_KEEPER/player1_dig1_i__0                                | reset_IBUF                                                     |                2 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[0]_4               | new_game_IBUF                                                  |                2 |              8 |
+|  clk_IBUF_BUFG | SELECTOR/q[3]_i_1_n_0                                         | reset_IBUF                                                     |                2 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[0]_2               | new_game_IBUF                                                  |                1 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[0]_3               | new_game_IBUF                                                  |                3 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[3]_0               | new_game_IBUF                                                  |                2 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[3]_2               | new_game_IBUF                                                  |                2 |              8 |
+|  clk_IBUF_BUFG | COMPARER/CLOCK_DIV/hundredthsClock/E[0]                       | COMPARER/CLOCK_DIV/tenthsClock/current_count[3]_i_1__1_n_0     |                2 |              8 |
+|  clk_IBUF_BUFG | COMPARER/CLOCK_DIV/thousandthsClock/current_count_reg[0]_0[0] | COMPARER/CLOCK_DIV/hundredthsClock/current_count[3]_i_1__0_n_0 |                1 |              8 |
+|  clk_IBUF_BUFG | COMPARER/CLOCK_DIV/tenthsClock/E[0]                           | COMPARER/CLOCK_DIV/secondClock/current_count[3]_i_1__2_n_0     |                1 |              8 |
+|  clk_IBUF_BUFG | COMPARER/E[0]                                                 | SCORE_KEEPER/player2_dig1_i[3]_i_1_n_0                         |                1 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[3]_1               | new_game_IBUF                                                  |                2 |              8 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[0]_5               | new_game_IBUF                                                  |                1 |              8 |
+|  clk_IBUF_BUFG | COMPARER/player1_dig1_i_reg[0][0]                             | SCORE_KEEPER/player1_dig1_i[3]_i_1_n_0                         |                2 |              8 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/noteChanger/E[0]                         | WINNER_DISPLAY/music/counter0                                  |                1 |              8 |
+|  clk_IBUF_BUFG | HIGHSCORE_STORER/UP_COUNT/E[0]                                | reset_highscore_IBUF                                           |                2 |              8 |
+|  clk_IBUF_BUFG |                                                               | WINNER_DISPLAY/music/counter0                                  |                4 |             10 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/oneHzClock/E[0]                                | COMPARER/SR[0]                                                 |                2 |             14 |
+|  clk_IBUF_BUFG | reset_IBUF                                                    | HIGHSCORE_STORER/SR[0]                                         |                3 |             16 |
+|  clk_IBUF_BUFG | COMPARER/PLAYER1/counter[9]_i_2_n_0                           | COMPARER/PLAYER1/confirmed_press05_out                         |                4 |             20 |
+|  clk_IBUF_BUFG | COMPARER/PLAYER2/counter[9]_i_2__0_n_0                        | COMPARER/PLAYER2/confirmed_press05_out                         |                4 |             20 |
+|  clk_IBUF_BUFG | HIGHSCORE_STORER/DOWN_COUNT/counter[9]_i_2__2_n_0             | HIGHSCORE_STORER/DOWN_COUNT/confirmed_press05_out              |                4 |             20 |
+|  clk_IBUF_BUFG | HIGHSCORE_STORER/UP_COUNT/counter[9]_i_2__1_n_0               | HIGHSCORE_STORER/UP_COUNT/confirmed_press05_out                |                3 |             20 |
+|  clk_IBUF_BUFG | SLIDING_DISPLAY/oneHzClock/onehertz                           | SLIDING_DISPLAY/reset_i                                        |                4 |             32 |
+|  clk_IBUF_BUFG |                                                               | new_game_IBUF                                                  |                5 |             34 |
+|  clk_IBUF_BUFG |                                                               | reset_IBUF                                                     |                5 |             34 |
+|  clk_IBUF_BUFG | SCORE_KEEPER/selector                                         | SCORE_KEEPER/current_count_reg[27]                             |                7 |             56 |
+|  clk_IBUF_BUFG | COMPARER/enable_i_reg_n_0                                     | COMPARER/CLOCK_DIV/kHzClock/current_count[0]_i_1_n_0           |                7 |             56 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[27]                | new_game_IBUF                                                  |               10 |             56 |
+|  clk_IBUF_BUFG | RANDOM_CLOCK/secondClock/current_count_reg[0]_1               | new_game_IBUF                                                  |               13 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/Bb_enable_reg_n_0                        | WINNER_DISPLAY/music/Bb/current_count[0]_i_1__5_n_0            |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/C_enable_reg_n_0                         | WINNER_DISPLAY/music/C/current_count[0]_i_1__4_n_0             |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/DC1_enable_reg_n_0                       | WINNER_DISPLAY/music/dutyCycle1/current_count[0]_i_1__6_n_0    |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/DC2_enable_reg_n_0                       | WINNER_DISPLAY/music/dutyCycle2/current_count[0]_i_1__7_n_0    |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/D_enable_reg_n_0                         | WINNER_DISPLAY/music/D/current_count[0]_i_1__3_n_0             |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/music/reset_used_reg_n_0                       | WINNER_DISPLAY/music/noteChanger/current_count[0]_i_1__8_n_0   |                7 |             56 |
+|  clk_IBUF_BUFG | WINNER_DISPLAY/enable                                         | WINNER_DISPLAY/oneHzClock/current_count[0]_i_1__9_n_0          |                7 |             56 |
+|  clk_IBUF_BUFG |                                                               |                                                                |               33 |            110 |
+|  i_pixel_clk   | VGA/VGA_SYNC/sel                                              |                                                                |               54 |            170 |
+|  clk_IBUF_BUFG | COMPARER/concat_time_i                                        | reset_IBUF                                                     |               98 |            338 |
+|  i_pixel_clk   |                                                               |                                                                |              287 |           1544 |
++----------------+---------------------------------------------------------------+----------------------------------------------------------------+------------------+----------------+
+
+

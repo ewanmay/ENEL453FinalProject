@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/Users/Daniel/Desktop/Work/ENEL 453/Working_ENEL453_LAB5_EWANMAY-20181207T154006Z-001/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

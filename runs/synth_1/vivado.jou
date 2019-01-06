@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec  7 17:10:37 2018
+# Process ID: 11496
+# Current directory: C:/Users/Daniel/Desktop/Work/ENEL 453/Working_ENEL453_LAB5_EWANMAY-20181207T154006Z-001/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.runs/synth_1
+# Command line: vivado.exe -log game_top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game_top_level.tcl
+# Log file: C:/Users/Daniel/Desktop/Work/ENEL 453/Working_ENEL453_LAB5_EWANMAY-20181207T154006Z-001/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.runs/synth_1/game_top_level.vds
+# Journal file: C:/Users/Daniel/Desktop/Work/ENEL 453/Working_ENEL453_LAB5_EWANMAY-20181207T154006Z-001/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game_top_level.tcl -notrace

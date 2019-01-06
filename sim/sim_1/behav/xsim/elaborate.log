@@ -1,0 +1,22 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4f3e438c26034515a5f90648f0845aa0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_music_box_behav xil_defaultlib.tb_music_box -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.game_upcounter [\game_upcounter(period=6,width=2...]
+Compiling architecture behavioral of entity xil_defaultlib.game_upcounter [\game_upcounter(period=2,width=2...]
+Compiling architecture behavioral of entity xil_defaultlib.game_upcounter [\game_upcounter(width=28)\]
+Compiling architecture behavioral of entity xil_defaultlib.game_upcounter [\game_upcounter(period=20,width=...]
+Compiling architecture behavioral of entity xil_defaultlib.music_box [music_box_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_music_box
+Built simulation snapshot tb_music_box_behav

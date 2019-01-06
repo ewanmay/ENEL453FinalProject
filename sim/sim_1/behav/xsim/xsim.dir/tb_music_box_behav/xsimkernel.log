@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_music_box_behav/xsimk.exe -simmode gui -wdb tb_music_box_behav.wdb -simrunnum 0 -socket 60018
+Design successfully loaded
+Design Loading Memory Usage: 4864 KB (Peak: 4864 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 5448 KB (Peak: 5448 KB)
+Simulation CPU Usage: 93 ms

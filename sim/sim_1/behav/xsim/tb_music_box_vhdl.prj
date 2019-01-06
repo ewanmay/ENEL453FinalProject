@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ENEL453_LAB5_EWANMAY_DANIELFLOYD.srcs/sources_1/new/music_box.vhd" \
+"../../../../ENEL453_LAB5_EWANMAY_DANIELFLOYD.srcs/sources_1/new/upcounter.vhd" \
+"../../../../ENEL453_LAB5_EWANMAY_DANIELFLOYD.srcs/sim_1/new/tb_music_box.vhd" \
+
+# Do not sort compile order
+nosort

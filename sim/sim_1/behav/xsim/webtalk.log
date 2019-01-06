@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Nov 29 16:59:31 2018
+# Process ID: 3032
+# Current directory: F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim/xsim.dir/tb_music_box_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim/xsim.dir/tb_music_box_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/UofC2018-2019/ENEL_453/ENEL453_LAB5_EWANMAY/ENEL453_LAB5_EWANMAY_DANIELFLOYD.sim/sim_1/behav/xsim/xsim.dir/tb_music_box_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Nov 29 16:59:33 2018. For additional details about this file, please refer to the WebTalk help file at F:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 29 16:59:33 2018...
